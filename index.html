@@ -281,32 +281,61 @@
                 </p>
             </div>
 
-            <!-- Interactive Assignment Grid Menu -->
+            <!-- Interactive Assignment Grid Menu with Drive Buttons -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-                <button onclick="switchTab(1)" id="tab-btn-1" class="tab-btn active p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-folder-open"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 1: File &amp; Folder</span>
-                </button>
-                <button onclick="switchTab(2)" id="tab-btn-2" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 2: Academic Search</span>
-                </button>
-                <button onclick="switchTab(3)" id="tab-btn-3" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-terminal"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 3: Prompt Crafting</span>
-                </button>
-                <button onclick="switchTab(4)" id="tab-btn-4" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-users-viewfinder"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 4: Group Work</span>
-                </button>
-                <button onclick="switchTab(5)" id="tab-btn-5" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-palette"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 5: GenAI Content</span>
-                </button>
-                <button onclick="switchTab(6)" id="tab-btn-6" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300">
-                    <span class="text-lg text-dreamy-star"><i class="fa-solid fa-shield-halved"></i></span>
-                    <span class="text-xs font-bold text-white tracking-wide">Bài 6: Ethical AI</span>
-                </button>
+                <!-- Bài 1 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(1)" id="tab-btn-1" class="tab-btn active p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-folder-open"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 1: File &amp; Folder</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/1L8FXlHGWGJaqlPeAyMg0nnv5UJe28Wrl/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 1</a>
+                </div>
+
+                <!-- Bài 2 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(2)" id="tab-btn-2" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 2: Academic Search</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/16yXngcF2SOXIFAp4_LCemOeMZMc9Ga1D/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 2</a>
+                </div>
+
+                <!-- Bài 3 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(3)" id="tab-btn-3" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-terminal"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 3: Prompt Crafting</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/15aYOKkdnxHKS_Lle3odRtYGOar5jphGs/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 3</a>
+                </div>
+
+                <!-- Bài 4 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(4)" id="tab-btn-4" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-users-viewfinder"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 4: Group Work</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/1t9ID5Feu859FVrmULz1wm-aIqHotljHk/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 4</a>
+                </div>
+
+                <!-- Bài 5 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(5)" id="tab-btn-5" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-palette"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 5: GenAI Content</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/1RNtc1l18CTCGdyW6iS5aYTNPnxu1NF-P/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 5</a>
+                </div>
+
+                <!-- Bài 6 Tab & External Link Button -->
+                <div class="flex flex-col gap-2">
+                    <button onclick="switchTab(6)" id="tab-btn-6" class="tab-btn p-4 rounded-xl text-center flex flex-col items-center justify-center gap-2 border border-white/10 bg-slate-900/30 hover:bg-white/5 transition-all duration-300 w-full">
+                        <span class="text-lg text-dreamy-star"><i class="fa-solid fa-shield-halved"></i></span>
+                        <span class="text-xs font-bold text-white tracking-wide">Bài 6: Ethical AI</span>
+                    </button>
+                    <a href="https://drive.google.com/file/d/1OskFNjr_tAT6Uq2jmmdek0HJ12kVCLw1/view?usp=drive_link" target="_blank" class="text-center py-1.5 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-lg text-[10px] text-gray-400 hover:text-dreamy-star transition-all duration-300"><i class="fa-solid fa-up-right-from-square"></i> File gốc Bài 6</a>
+                </div>
             </div>
 
             <!-- Tab Contents Area -->
@@ -315,9 +344,12 @@
                 <!-- Tab 1: File & Folder Operations (Interactive Explorer simulation) -->
                 <div id="tab-content-1" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 1 (mục 1.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Thao tác cơ bản với Tệp tin và Thư mục</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Thao tác cơ bản với Tệp tin và Thư mục</h3>
+                            <a href="https://drive.google.com/file/d/1L8FXlHGWGJaqlPeAyMg0nnv5UJe28Wrl/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -382,9 +414,12 @@
                 <!-- Tab 2: Academic Search (Interactive database search) -->
                 <div id="tab-content-2" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 hidden animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 2 (mục 2.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Tìm kiếm và Đánh giá Thông tin Học thuật</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Tìm kiếm và Đánh giá Thông tin Học thuật</h3>
+                            <a href="https://drive.google.com/file/d/16yXngcF2SOXIFAp4_LCemOeMZMc9Ga1D/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -422,7 +457,7 @@
                         <!-- Live Filtering database dashboard -->
                         <div class="lg:col-span-8 space-y-3">
                             <div class="flex items-center justify-between">
-                                <h5 class="text-sm font-bold text-white">Bảng tổng hợp &amp; Đánh giá 10 nguồn thu thập</h5>
+                                <h5 class="text-sm font-bold text-white">Bảng tổng hợp &amp; Đánh giá 10 nguồn thu thập (Chuẩn Harvard)</h5>
                                 <div class="flex gap-2">
                                     <select id="reliability-filter" onchange="filterSources()" class="bg-slate-950 border border-white/15 rounded-lg px-2 py-1 text-xs text-dreamy-star focus:outline-none">
                                         <option value="all">Tất cả độ tin cậy</option>
@@ -432,15 +467,15 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="overflow-x-auto rounded-xl border border-white/10 max-h-[300px] overflow-y-auto">
+                            <div class="overflow-x-auto rounded-xl border border-white/10 max-h-[350px] overflow-y-auto">
                                 <table class="w-full text-left border-collapse bg-slate-950/40 text-xs">
                                     <thead class="sticky top-0 bg-slate-950 z-10 border-b border-white/10 text-dreamy-lavender">
                                         <tr>
                                             <th class="p-3">STT</th>
-                                            <th class="p-3">Tài liệu</th>
+                                            <th class="p-3">Danh mục trích dẫn (chuẩn Harvard)</th>
                                             <th class="p-3">Loại nguồn</th>
                                             <th class="p-3">Độ tin cậy</th>
-                                            <th class="p-3">Nhận xét</th>
+                                            <th class="p-3">Nhận xét của Vân</th>
                                         </tr>
                                     </thead>
                                     <tbody id="sources-table-body" class="divide-y divide-white/5 text-gray-300">
@@ -463,9 +498,12 @@
                 <!-- Tab 3: Prompt Crafting Sandbox -->
                 <div id="tab-content-3" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 hidden animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 3 (mục 3.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                            <a href="https://drive.google.com/file/d/15aYOKkdnxHKS_Lle3odRtYGOar5jphGs/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -501,9 +539,12 @@
                 <!-- Tab 4: Online Collaboration Timeline -->
                 <div id="tab-content-4" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 hidden animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 4 (mục 4.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Sử dụng Công cụ Cộng tác trực tuyến cho Dự án nhóm</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Sử dụng Công cụ Cộng tác trực tuyến cho Dự án nhóm</h3>
+                            <a href="https://drive.google.com/file/d/1t9ID5Feu859FVrmULz1wm-aIqHotljHk/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -573,12 +614,15 @@
                     </div>
                 </div>
 
-                <!-- Tab 5: Generative AI (Presentation Carousel Simulation) -->
+                <!-- Tab 5: Generative AI (Presentation Carousel Simulation & Infographic b5.jpg) -->
                 <div id="tab-content-5" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 hidden animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 5 (mục 5.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Sử dụng AI tạo sinh để hỗ trợ Sáng tạo nội dung</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Sử dụng AI tạo sinh để hỗ trợ Sáng tạo nội dung</h3>
+                            <a href="https://drive.google.com/file/d/1RNtc1l18CTCGdyW6iS5aYTNPnxu1NF-P/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -586,8 +630,8 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                        <div class="lg:col-span-6 space-y-4">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                        <div class="lg:col-span-5 space-y-4">
                             <h4 class="text-base font-bold text-white flex items-center gap-2">
                                 <i class="fa-solid fa-wand-magic-sparkles text-dreamy-star"></i> Chi tiết Dự án Sáng tạo
                             </h4>
@@ -599,14 +643,22 @@
                                 <p class="font-bold text-white">Cách thức tích hợp AI &amp; Con người:</p>
                                 <ul class="list-disc list-inside space-y-1 text-gray-300">
                                     <li><strong>ChatGPT:</strong> Lập dàn ý bài thuyết trình 5 phút. Vân tự tay biên tập, bổ sung ví dụ (ELSA Speak, Grammarly) và rút ngắn văn phong vừa vặn slide.</li>
-                                    <li><strong>DALL-E &amp; OpenArt:</strong> Tạo hình ảnh học sinh áo dài trắng Việt Nam học tiếng Anh bằng máy tính trong lớp học hiện đại, tinh chỉnh kích thước.</li>
-                                    <li><strong>Canva AI:</strong> Tạo bố cục và màu sắc tổng quan chủ đề giáo dục, Vân căn chỉnh font chữ và chi tiết nhỏ thủ công.</li>
+                                    <li><strong>DALL-E &amp; OpenArt:</strong> Tạo hình ảnh học sinh áo dài trắng Việt Nam học tiếng Anh bằng máy tính trong lớp học hiện đại.</li>
+                                    <li><strong>Canva AI:</strong> Tạo bố cục và màu sắc tổng quan, Vân tinh chỉnh thủ công.</li>
                                 </ul>
+                            </div>
+
+                            <!-- Product Infographic from report -->
+                            <div class="space-y-2">
+                                <span class="text-xs font-bold text-dreamy-lavender flex items-center gap-1.5"><i class="fa-solid fa-image"></i> Infographic thiết kế sản phẩm (b5.jpg):</span>
+                                <div class="p-1 rounded-2xl bg-white/5 border border-white/10 overflow-hidden shadow-md max-w-xs mx-auto">
+                                    <img src="b5.jpg" alt="Bài 5 Infographic" class="w-full h-auto rounded-xl object-contain hover:scale-105 transition-transform duration-300">
+                                </div>
                             </div>
                         </div>
 
                         <!-- Simulated Presentation Slides Carousel -->
-                        <div class="lg:col-span-6 space-y-3">
+                        <div class="lg:col-span-7 space-y-3">
                             <div class="flex items-center justify-between text-xs">
                                 <span class="font-bold text-white">Xem trước 7 Slide bài thuyết trình:</span>
                                 <div class="flex gap-2">
@@ -634,9 +686,12 @@
                 <!-- Tab 6: Responsible AI (Card Flip interactive board) -->
                 <div id="tab-content-6" class="tab-content dreamy-card rounded-3xl p-6 sm:p-10 space-y-6 hidden animate-fade-in">
                     <div class="flex flex-col md:flex-row justify-between gap-4 border-b border-white/10 pb-4">
-                        <div>
+                        <div class="space-y-1">
                             <span class="text-xs text-dreamy-lavender uppercase tracking-wider font-semibold">Bài tập 6 (mục 6.4)</span>
-                            <h3 class="text-2xl font-serif font-bold text-white mt-1">Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                            <h3 class="text-2xl font-serif font-bold text-white">Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                            <a href="https://drive.google.com/file/d/1OskFNjr_tAT6Uq2jmmdek0HJ12kVCLw1/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 hover:bg-dreamy-star/15 border border-white/10 rounded-full text-xs text-gray-300 hover:text-dreamy-star transition-all duration-300 mt-2">
+                                <i class="fa-solid fa-external-link"></i> Mở file báo cáo gốc trên Drive
+                            </a>
                         </div>
                         <div class="flex flex-col items-end gap-1">
                             <span class="text-xs text-dreamy-star font-bold"><i class="fa-solid fa-bullseye mr-1"></i> Mục tiêu bài học:</span>
@@ -883,6 +938,9 @@
             }
         }
 
+        // Initialize active states for tabs
+        switchTab(1);
+
         // --- 4. BÀI 1: Interactive File Operations Simulation ---
         const explorerSteps = {
             1: {
@@ -1054,18 +1112,18 @@
         initExplorerWizard();
 
 
-        // --- 5. BÀI 2: Academic Search Databases (All 10 sources) ---
+        // --- 5. BÀI 2: Academic Search Databases (All 10 sources in Harvard citation) ---
         const sourcesDb = [
-            { stt: 1, name: "Holmes et al. (2019)", type: "Bài báo", reliability: "Cao", desc: "Nội dung chuyên sâu, cung cấp khung lý thuyết toàn diện về AI cá nhân hóa người học." },
-            { stt: 2, name: "Zawacki-Richter et al. (2019)", type: "Bài báo", reliability: "Cao", desc: "Số lượng lượt trích dẫn khổng lồ, bài tổng hợp hệ thống hóa ứng dụng AI trong GDĐH xuất sắc." },
-            { stt: 3, name: "Luckin et al. (2016)", type: "Sách", reliability: "Cao", desc: "Nguồn học thuật uy tín cao, đưa ra những cơ sở phương pháp luận bền vững đầu tiên." },
-            { stt: 4, name: "Chen et al. (2020)", type: "Bài báo", reliability: "Cao", desc: "Có chứa các báo cáo nghiên cứu thực nghiệm thực tiễn thuyết phục." },
-            { stt: 5, name: "UNESCO (2021)", type: "Báo cáo", reliability: "Cao", desc: "Tổ chức quốc tế uy tín tối thượng, đưa ra các khuyến nghị đạo đức mang tầm vĩ mô toàn cầu." },
-            { stt: 6, name: "Baker & Smith (2019)", type: "Báo cáo", reliability: "Cao", desc: "Nội dung cập nhật nhanh nhạy, bám sát hơi thở thực tiễn thay đổi từng ngày." },
-            { stt: 7, name: "Nguyen (2022)", type: "Bài báo", reliability: "Trung bình", desc: "Số lượng lượt trích dẫn học thuật còn tương đối hạn chế, cần kiểm tra thêm." },
-            { stt: 8, name: "Lee (2021)", type: "Bài báo", reliability: "Trung bình", desc: "Phạm vi nghiên cứu hẹp, tính phổ quát cho số đông chưa thực sự vững chắc." },
-            { stt: 9, name: "Website giáo dục", type: "Nguồn mở", reliability: "Thấp", desc: "Bài viết không ghi rõ danh tính tác giả, độ tin cậy thấp, khó kiểm chứng uy tín học vị." },
-            { stt: 10, name: "Blog cá nhân", type: "Nguồn mở", reliability: "Thấp", desc: "Mang nặng quan điểm chủ quan cá nhân, thiếu kiểm chứng khoa học chéo nghiêm khắc." }
+            { stt: 1, name: "Holmes, W., Bialik, M. & Fadel, C., 2019. <i>Artificial Intelligence in Education</i>. Boston: Center for Curriculum Redesign.", type: "Sách", reliability: "Cao", desc: "Nội dung học thuật chuyên sâu, cung cấp khung lý thuyết toàn diện về AI cá nhân hóa người học." },
+            { stt: 2, name: "Zawacki-Richter, O., Marín, V.I., Bond, M. & Gouverneur, F., 2019. Systematic review of research on artificial intelligence in higher education. <i>Int Journal of Ed Tech in Higher Ed</i>, 16(1), pp.1-27.", type: "Tạp chí", reliability: "Cao", desc: "Số lượng lượt trích dẫn khổng lồ, bài tổng hợp hệ thống hóa ứng dụng AI trong GDĐH xuất sắc." },
+            { stt: 3, name: "Luckin, R., Holmes, W., Griffiths, M. & Forcier, L.B., 2016. <i>Intelligence Unleashed: An argument for AI in education</i>. London: Pearson.", type: "Sách", reliability: "Cao", desc: "Nguồn học thuật uy tín cao từ NXB danh tiếng, đưa ra những cơ sở phương pháp luận bền vững đầu tiên." },
+            { stt: 4, name: "Chen, L., Chen, P. & Lin, Z., 2020. Artificial intelligence in education: A review. <i>IEEE Access</i>, 8, pp.75264-75278.", type: "Tạp chí", reliability: "Cao", desc: "Chứa các báo cáo nghiên cứu thực nghiệm thực tiễn và bảng số liệu phân tích định lượng vô cùng thuyết phục." },
+            { stt: 5, name: "UNESCO, 2021. <i>AI and Education: Guidance for Policy-makers</i>. Paris: UNESCO.", type: "Báo cáo", reliability: "Cao", desc: "Báo cáo từ tổ chức quốc tế uy tín tối thượng, đưa ra các khuyến nghị đạo đức mang tầm vĩ mô toàn cầu." },
+            { stt: 6, name: "Baker, T. & Smith, L., 2019. <i>Educ-AI-tion Rebooted? Exploring the future of AI in schools</i>. London: Nesta.", type: "Báo cáo", reliability: "Cao", desc: "Nội dung cập nhật nhanh nhạy, bám sát hơi thở thực tiễn thay đổi của giáo dục trung học và đại học." },
+            { stt: 7, name: "Nguyen, T., 2022. AI applications in education. <i>Education Review</i>, 45(2), pp.112-125.", type: "Tạp chí", reliability: "Trung bình", desc: "Số lượng lượt trích dẫn học thuật còn tương đối hạn chế do mới công bố, cần kiểm tra đối chiếu thêm." },
+            { stt: 8, name: "Lee, J., 2021. AI and student learning outcomes. <i>Journal of Education</i>, 58(3), pp.204-218.", type: "Tạp chí", reliability: "Trung bình", desc: "Phạm vi nghiên cứu hẹp, mang tính địa phương nên mức độ phổ quát cho số đông chưa thực sự vững chắc." },
+            { stt: 9, name: "EdTech Magazine, 2023. <i>The Role of AI in Modern Classrooms</i>. [online] Available tại: edtechmagazine.com [Truy cập 15/4/2026].", type: "Nguồn mở", reliability: "Thấp", desc: "Bài viết tạp chí mạng không ghi rõ danh tính tác giả có học vị chuyên môn, thông tin ngắn gọn, mang tính thị trường." },
+            { stt: 10, name: "Smith, J., 2024. <i>Why AI cannot replace teachers yet</i>. [blog] Tech Thoughts Blog, 12 January. Available tại: techthoughts.blog [Truy cập 18/4/2026].", type: "Nguồn mở", reliability: "Thấp", desc: "Mang nặng quan điểm chủ quan của một cá nhân, thiếu kiểm chứng khoa học chéo nghiêm khắc." }
         ];
 
         function filterSources() {
@@ -1089,8 +1147,8 @@
                 html += `
                     <tr class="hover:bg-white/5 transition-colors">
                         <td class="p-3 font-mono text-gray-500">${s.stt}</td>
-                        <td class="p-3 font-bold text-white">${s.name}</td>
-                        <td class="p-3 text-gray-400">${s.type}</td>
+                        <td class="p-3 font-medium text-gray-100">${s.name}</td>
+                        <td class="p-3 text-gray-400 font-mono">${s.type}</td>
                         <td class="p-3">
                             <span class="px-2 py-0.5 rounded border text-[10px] font-bold ${badgeColor}">${s.reliability}</span>
                         </td>
